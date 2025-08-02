@@ -1,3 +1,10 @@
+# INSTRUCTIONS:
+
+```git clone https://github.com/Zynith0/Theomarchagen.git```
+```cd Theomarchagen```
+```./main.sh```
+
+
 # PREVIEW:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff21276f-510c-4914-961d-ed39eaa74fdf" />
