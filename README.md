@@ -1,3 +1,9 @@
+# PREVIEW:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff21276f-510c-4914-961d-ed39eaa74fdf" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/77670dd7-696c-4846-8ea6-85b715a3c3ea" />
+
 # FAQ:
 
 
@@ -12,3 +18,7 @@ It's a pre-configured arch and hyprland setup that can be fully installed with a
 ## Why?
 
 for fun. Also because I want to share my configuration with other people.
+
+# NOTE
+
+this is **VERY** much in beta and in it's current state might not even work. I will continue to work on it and make it better. Eventually I plan to make it have the ease of use and user experience of omarchy, if not better
