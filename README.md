@@ -1,5 +1,6 @@
 # FAQ:
 
+
 ## What is this?
 
 This is pretty much just a clone of something called [omarchy](https://github.com/basecamp/omarchy), but with a setup very similar to theprimeagen's (which is why it's called Theomarchagen... I'm very funny)
