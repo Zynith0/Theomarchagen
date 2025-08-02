@@ -1,8 +1,14 @@
 # INSTRUCTIONS:
 
-```git clone https://github.com/Zynith0/Theomarchagen.git```
-```cd Theomarchagen```
-```./main.sh```
+```
+git clone https://github.com/Zynith0/Theomarchagen.git
+```
+```
+cd Theomarchagen
+```
+```
+./main.sh
+```
 
 
 # PREVIEW:
