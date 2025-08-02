@@ -10,6 +10,8 @@ cd Theomarchagen
 ./main.sh
 ```
 
+Note that this **ONLY WORKS** if it's in your home directory
+
 
 # PREVIEW:
 
