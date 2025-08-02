@@ -15,4 +15,6 @@ done
 
 sudo pacman -Syu --noconfirm
 
+sudo cp ~/Theomarchagen/theomarchagen /usr/bin
+
 gum confirm "Would you like to reboot?" && reboot

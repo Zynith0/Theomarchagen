@@ -12,7 +12,7 @@ gum style --border=double '
                                                            /____/
 '
 
-choice=$(gum choose "Theme" "Keybinds")
+choice=$(gum choose "Theme" "Keybinds" "Update")
 
 if [[ $choice == "Theme" ]]; then
 	clear
@@ -25,7 +25,15 @@ gum style --border=double '
 /_/ /_/ /_/\___/\____/_/ /_/ /_/\__,_/_/   \___/_/ /_/\__,_/\__, /\___/_/ /_/
                                                            /____/
 '
-	themechoice=$(gum choose "Rose-Pine")
+	themechoice=$(gum choose "Rose-Pine" "Catppuccin")
+	if [[ $themechoice == "Rose-Pine" ]]; then
+		~/Theomarchagen/scripts/ThemeSwitcher.sh "Rose-Pine"
+	fi
+	if [[ $themechoice == "Catppuccin" ]]; then
+		~/Theomarchagen/scripts/ThemeSwitcher.sh "Catppuccin"
+	fi
+
+	clear
 fi
 
 if [[ $choice == "Keybinds" ]]; then
@@ -39,18 +47,11 @@ if [[ $choice == "Keybinds" ]]; then
 /_/ /_/ /_/\___/\____/_/ /_/ /_/\__,_/_/   \___/_/ /_/\__,_/\__, /\___/_/ /_/
                                                            /____/
 	'
-	printf "SUPER + SHIFT + F = Firefox\nSUPER + SHIFT + W = Refresh waybar\nSUPER + SHIFT + X = Exit to lockscreen\nSUPER + SHIFT + Q = Force kill active window\nSUPER + SHIFT + P = Color picker\nSUPER + ENTER = Terminal\nSUPER + Q = Kill active window\nSUPER + W = File manager\nSUPER + F = Fullscreen active window\nSUPER + V = Emoji Picker\nSUPER + C = App launcher\n" | rofi -dmenu
+	printf "SUPER + SHIFT + F = Firefox\nSUPER + SHIFT + W = Refresh waybar\nSUPER + SHIFT + X = Exit to lockscreen\nSUPER + SHIFT + Q = Force kill active window\nSUPER + SHIFT + P = Color picker\nSUPER + ENTER = Terminal\nSUPER + Q = Kill active window\nSUPER + W = File manager\nSUPER + F = Fullscreen active window\nSUPER + V = Emoji Picker\nSUPER + C = App launcher\nSUPER + D = Discord\nSUPER + S = Screenshot\nSUPER + Z = RMPC (music player) volume down\nSUPER + X = RMPC (music player) volume up\nSUPER + P = Pause RMPC (music player)\nSUPER + H = Notification Center\nSUPER + Y = Toggle floating window\n" | rofi -dmenu &
 
-	clear
-
-	gum style --border=double '
-  ________                                         __
- /_  __/ /_  ___  ____  ____ ___  ____ ___________/ /_  ____ _____ ____  ____
-  / / / __ \/ _ \/ __ \/ __ `__ \/ __ `/ ___/ ___/ __ \/ __ `/ __ `/ _ \/ __ \
- / / / / / /  __/ /_/ / / / / / / /_/ / /  / /__/ / / / /_/ / /_/ /  __/ / / /
-/_/ /_/ /_/\___/\____/_/ /_/ /_/\__,_/_/   \___/_/ /_/\__,_/\__, /\___/_/ /_/
-                                                           /____/
-	'
 fi
 
-clear
+if [[ $choice == "Update" ]]; then
+	gum confirm "Are you sure you want to continue? (This will update ALL your packages)" && sudo pacman -Syu
+fi
+
