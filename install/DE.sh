@@ -10,6 +10,7 @@ sudo pacman -S --noconfirm waybar
 sudo pacman -S --noconfirm nautilus
 sudo pacman -S --noconfirm swww
 sudo pacman -S --noconfirm swaync
+sudo pacman -S --noconfirm rofi
 
 swww img ~/Theomarchagen/Pictures/wallpaper.png
 
