@@ -75,7 +75,7 @@ SUPER + N = Move focus down
 SUPER + E = Move focus up  
 SUPER + I = Move focus right  
 
-SUPER + SHIFT + M = Move window left
-SUPER + SHIFT + N = Move window down
-SUPER + SHIFT + E = Move window up
-SUPER + SHIFT + I = Move window right
+SUPER + SHIFT + M = Move window left  
+SUPER + SHIFT + N = Move window down  
+SUPER + SHIFT + E = Move window up  
+SUPER + SHIFT + I = Move window right  
