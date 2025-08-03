@@ -19,6 +19,13 @@ Note that this **ONLY WORKS** if it's in your home directory
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/77670dd7-696c-4846-8ea6-85b715a3c3ea" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2808e690-3e99-4336-b321-96e98c62e378" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a65f185-65ca-49aa-8bd2-8207b2b21630" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/810e5967-21be-45eb-82a8-f5d64cdc8694" />
+
+
 # FAQ:
 
 
