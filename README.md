@@ -9,9 +9,14 @@ cd Theomarchagen
 ```
 ./main.sh
 ```
-
 Note that this **ONLY WORKS** if it's in your home directory
 
+you can run the command
+```
+theomarchagen
+```
+
+to enter a menu that includes things such as a theme switcher, and keybinds
 
 # PREVIEW:
 
@@ -40,3 +45,37 @@ for fun. Also because I want to share my configuration with other people.
 # NOTE
 
 this is **VERY** much in beta and in it's current state might not even work. I will continue to work on it and make it better. Eventually I plan to make it have the ease of use and user experience of omarchy, if not better
+
+# KEYBINDS:
+
+SUPER + SHIFT + F = Firefox  
+SUPER + SHIFT + W = Refresh waybar  
+SUPER + SHIFT + X = Exit to lockscreen  
+SUPER + SHIFT + Q = Force kill active window  
+SUPER + SHIFT + P = Color picker  
+SUPER + ENTER = Terminal  
+SUPER + Q = Kill active window  
+SUPER + W = File manager  
+SUPER + F = Fullscreen active window  
+SUPER + V = Emoji Picker  
+SUPER + C = App launcher  
+SUPER + D = Discord  
+SUPER + S = Screenshot  
+SUPER + Z = RMPC (music player) volume down  
+SUPER + X = RMPC (music player) volume up  
+SUPER + P = Pause RMPC (music player)  
+SUPER + H = Notification Center  
+SUPER + Y = Toggle floating window  
+  
+SUPER + 1..0 = Switch workspace  
+SUPER + SHIFT + 1..0 = Move window to workspace  
+  
+SUPER + M = Move focus left  
+SUPER + N = Move focus down  
+SUPER + E = Move focus up  
+SUPER + I = Move focus right  
+
+SUPER + SHIFT + M = Move window left
+SUPER + SHIFT + N = Move window down
+SUPER + SHIFT + E = Move window up
+SUPER + SHIFT + I = Move window right
