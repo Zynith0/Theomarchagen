@@ -11,8 +11,9 @@ sudo pacman -S --noconfirm nautilus
 sudo pacman -S --noconfirm swww
 sudo pacman -S --noconfirm swaync
 sudo pacman -S --noconfirm rofi
+sudo pacman -S --noconfirm fuzzel
 
-swww img ~/Theomarchagen/Pictures/wallpaper.png
+swww img ~/.local/share/Theomarchagen/Wallpapers/wallpaper-rose-pine.png
 
-cp -r ~/Theomarchagen/.config/hypr ~/.config/hypr
-cp -r ~/Theomarchagen/.config/waybar ~/.config/waybar
+cp -r ~/.local/share/Theomarchagen/.config/hypr ~/.config/
+cp -r ~/.local/share/Theomarchagen/.config/waybar ~/.config/

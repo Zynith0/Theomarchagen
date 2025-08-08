@@ -1,5 +1,7 @@
 #!
 
+cp -r ~/Theomarchagen ~/.local/share/
+
 echo '
   ________                                         __
  /_  __/ /_  ___  ____  ____ ___  ____ ___________/ /_  ____ _____ ____  ____
@@ -9,12 +11,12 @@ echo '
                                                            /____/
 '
 
-for f in ~/Theomarchagen/install/*.sh; do
+for f in ~/.local/share/Theomarchagen/install/*.sh; do
 	$f
 done
 
 sudo pacman -Syu --noconfirm
 
-sudo cp ~/Theomarchagen/theomarchagen /usr/bin
+sudo cp ~/.local/share/Theomarchagen/theomarchagen /usr/bin
 
 gum confirm "Would you like to reboot?" && reboot

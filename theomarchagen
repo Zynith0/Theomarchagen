@@ -47,7 +47,7 @@ if [[ $choice == "Keybinds" ]]; then
 /_/ /_/ /_/\___/\____/_/ /_/ /_/\__,_/_/   \___/_/ /_/\__,_/\__, /\___/_/ /_/
                                                            /____/
 	'
-	printf "SUPER + SHIFT + F = Firefox\nSUPER + SHIFT + W = Refresh waybar\nSUPER + SHIFT + X = Exit to lockscreen\nSUPER + SHIFT + Q = Force kill active window\nSUPER + SHIFT + P = Color picker\nSUPER + ENTER = Terminal\nSUPER + Q = Kill active window\nSUPER + W = File manager\nSUPER + F = Fullscreen active window\nSUPER + V = Emoji Picker\nSUPER + C = App launcher\nSUPER + D = Discord\nSUPER + S = Screenshot\nSUPER + Z = RMPC (music player) volume down\nSUPER + X = RMPC (music player) volume up\nSUPER + P = Pause RMPC (music player)\nSUPER + H = Notification Center\nSUPER + Y = Toggle floating window\n" | rofi -dmenu &
+	printf "SUPER + SHIFT + F = Firefox\nSUPER + SHIFT + W = Refresh waybar\nSUPER + SHIFT + X = Exit to lockscreen\nSUPER + SHIFT + Q = Force kill active window\nSUPER + SHIFT + P = Color picker\nSUPER + ENTER = Terminal\nSUPER + Q = Kill active window\nSUPER + W = File manager\nSUPER + F = Fullscreen active window\nSUPER + V = Emoji Picker\nSUPER + C = App launcher\nSUPER + D = Discord\nSUPER + S = Screenshot\nSUPER + Z = RMPC (music player) volume down\nSUPER + X = RMPC (music player) volume up\nSUPER + P = Pause RMPC (music player)\nSUPER + H = Notification Center\nSUPER + Y = Toggle floating window\n" | fuzzel -d &
 
 fi
 
