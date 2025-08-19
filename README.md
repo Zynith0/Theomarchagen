@@ -79,3 +79,5 @@ SUPER + SHIFT + M = Move window left
 SUPER + SHIFT + N = Move window down  
 SUPER + SHIFT + E = Move window up  
 SUPER + SHIFT + I = Move window right  
+
+SUPER + CTRL + M = Open menu
