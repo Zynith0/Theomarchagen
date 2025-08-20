@@ -1,12 +1,12 @@
 format = '''
-[➜ ](bold green)$directory$git_branch'''
+[➜ ](bold green)$directory$git_branch[](bold yellow) '''
 
 
 [directory]
 home_symbol = '~'
 truncation_length = 1
 truncation_symbol = ''
-style = 'bold red'
+style = 'bold cyan'
 
 [time]
 disabled = false
@@ -15,6 +15,7 @@ time_format = '%T'
 utc_time_offset = 'local'
 
 [git_branch]
+format = '[git:\(](bold blue)[($branch)]($style)[\)](bold blue)'
 symbol = ''
-truncation_length = 4
 truncation_symbol = ''
+style = 'bold red'
