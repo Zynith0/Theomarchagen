@@ -44,7 +44,7 @@ for fun. Also because I want to share my configuration with other people.
 
 # NOTE
 
-this is **VERY** much in beta and in it's current state might not even work. I will continue to work on it and make it better. Eventually I plan to make it have the ease of use and user experience of omarchy, if not better
+this is **VERY** much in beta and in it's current state does not work if you use it from a clean install. It currently expects you to have working audio. I will continue to work on it and make it better. Eventually I plan to make it have the ease of use and user experience of omarchy, if not better. Oh yeah, it also uses dvorak.
 
 # KEYBINDS:
 
@@ -70,14 +70,14 @@ SUPER + Y = Toggle floating window
 SUPER + 1..0 = Switch workspace  
 SUPER + SHIFT + 1..0 = Move window to workspace  
   
-SUPER + M = Move focus left  
-SUPER + N = Move focus down  
-SUPER + E = Move focus up  
-SUPER + I = Move focus right  
+SUPER + H = Move focus left  
+SUPER + J = Move focus down  
+SUPER + K = Move focus up  
+SUPER + L = Move focus right  
 
-SUPER + SHIFT + M = Move window left  
-SUPER + SHIFT + N = Move window down  
-SUPER + SHIFT + E = Move window up  
-SUPER + SHIFT + I = Move window right  
+SUPER + SHIFT + H = Move window left  
+SUPER + SHIFT + J = Move window down  
+SUPER + SHIFT + K = Move window up  
+SUPER + SHIFT + L = Move window right  
 
 SUPER + CTRL + M = Open menu
