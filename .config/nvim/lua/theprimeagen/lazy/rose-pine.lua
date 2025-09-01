@@ -3,10 +3,11 @@ return {
 	config = function()
 		require("rose-pine").setup({
 			variant = "moon",
+			disable_background = true,
 			styles = {
-				bold = false,
+				bold = true,
 				italic = false,
-				transparency = true,
+				-- transparency = true,
 			},
 			palette = {
 				moon = {

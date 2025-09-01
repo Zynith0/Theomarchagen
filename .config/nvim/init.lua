@@ -1,6 +1,6 @@
-require("zynith.lazy")
-require("zynith.keybinds")
-require("zynith.options")
+require("theprimeagen.lazy_init")
+require("theprimeagen.remap")
+require("theprimeagen.set")
 
 return {
 	{
